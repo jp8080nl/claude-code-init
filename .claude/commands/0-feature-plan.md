@@ -1,4 +1,4 @@
-Ultra think Please analyse and make a plan to fix the GitHub issue: $ARGUMENTS.
+Ultra think and analyse and make a plan to fix the GitHub issue: $ARGUMENTS.
 
 Follow these steps:
 

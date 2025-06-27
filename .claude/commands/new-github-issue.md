@@ -4,7 +4,7 @@ Ultra think on new github issue: $ARGUMENTS.
 
 Instructions:
 1. Aanalyze the feature or bug though the $ARGUMENTS
-2. Ask questions if the feature is no clear.
+2. Ask questions if the feature is no clear or ask the user to label it as unrefined
 3. Break down into atomic, single-responsibility issue with format:
 
    Title: [Component] - <concise description>
@@ -31,5 +31,7 @@ Instructions:
    - Completable in 1-3 days by one developer
    - Testable independently
    - Delivers user value (even if small)
+
+5. Use ‘gh issue create’ to create issues
    
 6. Output as markdown with issue creation commands
