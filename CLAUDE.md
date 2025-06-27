@@ -6,9 +6,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This repository documents and implements the Anthropic-recommended Test-Driven Development (TDD) workflow for agentic coding.
 
-## Test suite
-placeholder for info on test suite. This should we populated after running the init-test-suite
+## Tech stack
+**tech stack placeholder** (for info on project setup. This should we populated after running the init-project)
 
+## Test suite
+**test suit placeholder** (for info on test suite. This should we populated after running the init-test-suite)
 
 ## Development Workflow
 
@@ -56,6 +58,10 @@ No build, test, or development tools are currently configured. When implementing
 1. Choose appropriate language and framework based on requirements
 2. Set up necessary configuration files following the TDD workflow
 3. Establish project structure that supports test-first development
+
+## MCP servers
+- Puppeteer - for frontend testing
+- context7 - Up-to-date documentation for LLMs and AI code editors
 
 ## Notes
 

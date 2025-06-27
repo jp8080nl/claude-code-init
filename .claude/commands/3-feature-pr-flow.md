@@ -1,5 +1,7 @@
 # Git pull request flow
 
+Follow these steps:
+
 1. **Create a pull request**
    - Create a pull request with:
      * Summary of changes and problem solved

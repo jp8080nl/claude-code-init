@@ -1,3 +1,5 @@
+/init-test-suite
+
 This command should run in Claude code plan mode
 Don't setup the test suite if there is no Tech stack infoirmation avaialble. Ask user to provide the PRD.md file so we extract the tech stack with the claude code /init command.
 

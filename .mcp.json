@@ -13,20 +13,10 @@
                 "mcp/puppeteer"
             ]
         },
-        "postgres": {
-            "command": "docker",
-            "args": [
-                "run",
-                "-i",
-                "--rm",
-                "-e",
-                "POSTGRES_URL=postgresql://postgres:postgres@host.docker.internal:5432/shopify_content",
-                "mcp/postgres",
-                "postgresql://postgres:postgres@host.docker.internal:5432/shopify_content"
-            ],
-            "env": {
-                "POSTGRES_URL": "postgresql://postgres:postgres@host.docker.internal:5432/shopify_content"
-            }
+        "context7": {
+            "type": "stdio",
+            "command": "npx",
+            "args": ["-y", "@upstash/context7-mcp"]
         }
     }
 }

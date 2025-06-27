@@ -1,16 +1,13 @@
-/init-backlog
+/new-github-issue 
 
-Dependencies:
-- Project is setup correctyle (check ./project-management/plans/project-setup.md) 
-
-Add each feature as new GitHub issue
+Ultra think on new github issue: $ARGUMENTS.
 
 Instructions:
-1. Read and analyze PRD.md from project-management/
-2. Extract all features and requirements for the project
-3. Break down into atomic, single-responsibility issues using this format:
+1. Aanalyze the feature or bug though the $ARGUMENTS
+2. Ask questions if the feature is no clear.
+3. Break down into atomic, single-responsibility issue with format:
 
-   Title: [Component] Feature: <concise description>
+   Title: [Component] - <concise description>
    
    Body:
    ## User Story
@@ -35,5 +32,4 @@ Instructions:
    - Testable independently
    - Delivers user value (even if small)
    
-5. Group issues by phase and component
 6. Output as markdown with issue creation commands
