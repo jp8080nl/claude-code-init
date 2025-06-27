@@ -6,7 +6,22 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This repository documents and implements the Anthropic-recommended Test-Driven Development (TDD) workflow for agentic coding.
 
+## Test suite
+placeholder for info on test suite. This should we populated after running the init-test-suite
+
+
 ## Development Workflow
+
+### Git Branch Strategy
+
+This project follows a Git Flow branching strategy:
+
+- **main** branch: Production-ready code
+- **develop** branch: Integration branch for development
+- **feature branches**: Created from develop, named after GitHub issues (e.g., `feature/issue-123-add-login`)
+  - Always branch from develop
+  - Merge back to develop via Pull Request
+  - Delete after merge
 
 ### Make a plan based on GitHub issues
 
@@ -22,7 +37,7 @@ This codebase follows a strict Git (GitHub) and TDD and workflow that leverages 
 
 #### Initialize feature
 - Claude code slash command /1-feature-init.md
-We use this claude code command to 'Create a feature branch', 'Write Tests First' and 'Commit Tests'
+We use this claude code command to 'Create a feature branch from develop', 'Write Tests First' and 'Commit Tests'
 
 #### Implement or update Feature
 - Claude code slash command /2-feature-implement.md
@@ -44,5 +59,6 @@ No build, test, or development tools are currently configured. When implementing
 
 ## Notes
 
-- The repository is not yet initialized as a git repository
 - Follow the TDD workflow strictly for all new functionality
+- Always work on feature branches created from develop
+- Never commit directly to main or develop branches

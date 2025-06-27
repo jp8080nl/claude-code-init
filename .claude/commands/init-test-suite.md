@@ -1,27 +1,40 @@
 This command should run in Claude code plan mode
+Don't setup the test suite if there is no Tech stack infoirmation avaialble. Ask user to provide the PRD.md file so we extract the tech stack with the claude code /init command.
 
 If the tech stack clear in @CLAUDE.md Ultra think on a plan how to implement test suite that works with GitHub status checks to run tests (continuous integration) 
 
-# Test suite 
+# Test suite setup
 
-The minimal effective test suite needs just three layers:
+## Tests
+We will use the minimal effective test suite with only three layers:
+
 1. Unit Tests (70%)
-
-Test individual functions/methods in isolation
-Fast feedback, easy to debug
-Catch most bugs early
+Exmplanation: 
+- Test individual functions/methods in isolation
+- Fast feedback, easy to debug
+- Catch most bugs early
 
 2. Integration Tests (20%)
-
-Test component interactions and API contracts
-Verify data flow between systems
-Catch interface mismatches
+Exmplanation: 
+- Test component interactions and API contracts
+- Verify data flow between systems
+- Catch interface mismatches
 
 3. E2E Tests (10%)
+Exmplanation: 
+- Test critical user paths only
+- Verify the system works for real users
+- Expensive to maintain, so keep minimal
 
-Test critical user paths only
-Verify the system works for real users
-Expensive to maintain, so keep minimal
+## Setup
+
+
+## Add test suit specifications to CLAUDE.md
+- Ultra think on how to include the spects to our CLAUDE.md. Find the **test suit placeholder** in CLUADE.md
+
+## Run Github Check
+
+1. Check with user if all GitHub settings are in place
 
 # Note
 Why this works:

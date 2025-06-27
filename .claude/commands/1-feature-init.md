@@ -2,8 +2,8 @@
 
 Follow these steps:
 
-1. **Create a feature branch**
-   - Create a branch in repository with a short, descriptive name
+1. **Create a feature branch from develop**
+   - Created feature branch from develop, named after GitHub issues (e.g., `feature/issue-123-add-login`)
 
 2. **Write Tests First**
    - Write tests based on expected input/output pairs
