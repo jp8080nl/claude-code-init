@@ -8,6 +8,14 @@ This repository documents and implements the Anthropic-recommended Test-Driven D
 
 ## Development Workflow
 
+### Make a plan based on GitHub issues
+
+Before we start development we first go into plan mode a make a plan for the GitHub issue
+
+#### Make plan for feature
+- Claude code slash command /0-feature-plan.md
+We use this claude code command to Ultrahink on a plan to fix the github issue
+
 ### Github flow and Test-Driven Development (TDD) Approach
 
 This codebase follows a strict Git (GitHub) and TDD and workflow that leverages iterative development:

@@ -1,13 +1,6 @@
 {
     "globalShortcut": "Ctrl+Space",
     "mcpServers": {
-        "sequential-thinking": {
-            "command": "npx",
-            "args": [
-                "-y",
-                "@modelcontextprotocol/server-sequential-thinking"
-            ]
-        },
         "puppeteer": {
             "command": "docker",
             "args": [

@@ -1,5 +1,7 @@
 # Implement or update Feature
 
+Follow these steps:
+
 1. **Implement Code and update documentation**
    - Write code to pass the tests WITHOUT modifying the tests
    - Update relevant documentation as you code:

@@ -1,1 +1,0 @@
-With this project I want to create the basics when we start a project. Our first goal is to think out a solid workflow that we can follow when we write code. Please Ulta think how we can add this workflow to CLAUDE.md 

@@ -1,5 +1,7 @@
 # Initialize feature
 
+Follow these steps:
+
 1. **Create a feature branch**
    - Create a branch in repository with a short, descriptive name
 
