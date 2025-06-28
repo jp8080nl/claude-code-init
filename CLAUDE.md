@@ -49,12 +49,6 @@ We use this claude code command to 'Implement Code and update documentation', 'r
 - Claude code slash command /3-feature-pr-flow.md
 We use this claude code command to 'Create a pull request' and 'Check automated tests and do PR review'
 
-## Development Setup
-
-No build, test, or development tools are currently configured. We need to go through
-1. run /init-project 
-2. run /init-test-suite
-3. run /init-backlog
 
 ## MCP servers
 - Puppeteer - for frontend testing
