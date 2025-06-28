@@ -51,13 +51,10 @@ We use this claude code command to 'Create a pull request' and 'Check automated 
 
 ## Development Setup
 
-GitHub is not setup. Create repo and enable repo checks for running test.
-1. run through setups and check if everything is setup correctly 
-
-No build, test, or development tools are currently configured. When implementing features:
-1. Choose appropriate language and framework based on requirements
-2. Set up necessary configuration files following the TDD workflow
-3. Establish project structure that supports test-first development
+No build, test, or development tools are currently configured. We need to go through
+1. run /init-project 
+2. run /init-test-suite
+3. run /init-backlog
 
 ## MCP servers
 - Puppeteer - for frontend testing
