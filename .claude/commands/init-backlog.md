@@ -7,8 +7,9 @@ Add each feature as new GitHub issue
 
 Instructions:
 1. Read and analyze PRD.md from project-management/
-2. Extract all features and requirements for the project
-3. Break down into atomic, single-responsibility issues using this format:
+2. Ultrathink and have a very deep understanding of the Project
+3. Extract all features and requirements for the project
+4. Break down into atomic, single-responsibility issues using this format:
 
    Title: [Component] Feature: <concise description>
    

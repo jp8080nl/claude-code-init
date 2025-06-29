@@ -1,5 +1,7 @@
 # Initialize feature
 
+Get details from the plan file in /project-management/plans/ $ARGUMENTS.
+
 Follow these steps:
 
 1. **Create a feature branch from develop**

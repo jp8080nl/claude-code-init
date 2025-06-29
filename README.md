@@ -9,7 +9,8 @@
     git remote add origin https://github.com/yourusername/your-private-repo.git
     4. Push to your private repo
     git push -u origin main
-    5. Setup Steps Github
+    5. Change remote url
+    git remote set-url origin https://github.com/yourusername/your-private-repo.git
 
 **Create a development branch and make it default**
     git checkout -b develop

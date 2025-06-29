@@ -1,5 +1,7 @@
 # Implement or update Feature
 
+Get details from the plan file in /project-management/plans/ $ARGUMENTS.
+
 Follow these steps:
 
 1. **Implement Code and update documentation**
