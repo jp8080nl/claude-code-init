@@ -9,6 +9,7 @@ Follow these steps:
 
 2. **Write Tests First**
    - Write tests based on expected input/output pairs
+      Write the tests as an 10x engineer!
    - Be explicit that you're doing TDD to avoid mock implementations
    - Do NOT create any implementation code at this stage
    - Run tests to confirm they fail initially

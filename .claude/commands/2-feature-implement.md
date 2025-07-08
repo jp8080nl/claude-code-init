@@ -6,6 +6,7 @@ Follow these steps:
 
 1. **Implement Code and update documentation**
    - Write code to pass the tests WITHOUT modifying the tests
+      Write code like a 10x engineer - less code the better!
    - Update relevant documentation as you code:
      * API docs for new endpoints
      * README for new features or setup changes

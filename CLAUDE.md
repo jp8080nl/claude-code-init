@@ -6,6 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This repository documents and implements the Anthropic-recommended Test-Driven Development (TDD) workflow for agentic coding.
 
+
 ## Tech stack
 **tech stack placeholder** (for info on project setup. This should we populated after running the init-project)
 
@@ -44,11 +45,11 @@ We use this claude code command to 'Create a feature branch from develop', 'Writ
 #### Implement or update Feature
 - Claude code slash command /2-feature-implement.md
 We use this claude code command to 'Implement Code and update documentation', 'run Puppeteer test when UI changes', 'Run Linting and Formatting', 'Check code coverage' and 'Commit and push'
+Dont forget, write code as an 10x engineer and less code the better!
 
 #### Git pull request flow
 - Claude code slash command /3-feature-pr-flow.md
 We use this claude code command to 'Create a pull request' and 'Check automated tests and do PR review'
-
 
 ## MCP servers
 - Puppeteer - for frontend testing
@@ -59,3 +60,5 @@ We use this claude code command to 'Create a pull request' and 'Check automated 
 - Follow the TDD workflow strictly for all new functionality
 - Always work on feature branches created from develop
 - Never commit directly to main or develop branches
+- Always analyze like a 10x engineer
+- Write code like a 10x engineer - less code the better!

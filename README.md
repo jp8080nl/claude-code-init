@@ -16,7 +16,7 @@
     git checkout -b develop
     git push -u origin develop
     Make the develop branch the default. Her is how:
-    1. Go to your repository on GitHub: https://github.com/jp8080nl/shopify-translate-engine
+    1. Go to your repository on GitHub: https://github.com/yourusername/your-private-repo.git
     2. Click on "Settings" tab
     4. In the "Default branch" section, click the switch icon (⇄)
     5. Select "develop" from the dropdown
