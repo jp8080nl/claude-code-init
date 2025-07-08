@@ -21,8 +21,3 @@ Follow these steps:
   - If changes are requested: return to step 1 in Implement or update Feature and repeat the process
   - If PR is accepted ask user to merge feature to development branch
   - Ask user to delete the feature branch
-
-3. **Update the plan file and GitHub issue**
-  - Update the the plan file in /project-management/plans/ $ARGUMENTS and mark everything as implemented
-  - Move the plan file to /project-management/plans/implemented/
-  - Use ‘gh issue’ close the GitHub issue as done
