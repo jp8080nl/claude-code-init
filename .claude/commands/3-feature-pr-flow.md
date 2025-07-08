@@ -8,7 +8,7 @@ Follow these steps:
 1. **Create a pull request**
    - Create a pull request with:
      * Summary of changes and problem solved
-     * Checklist:
+     * Local checklist:
        □ Tests written and passing
        □ Code coverage maintained/improved
        □ Documentation updated
