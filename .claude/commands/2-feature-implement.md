@@ -1,6 +1,7 @@
 # Implement or update Feature
 
 Get details from the plan file in /project-management/plans/ $ARGUMENTS.
+If everything went well, all tests are already have been made. Please check if this is the case.
 
 Follow these steps:
 

@@ -20,3 +20,6 @@ Follow these steps:
 
 4. **Check if we are ready to code**
    - Aks user if we are ready to to write code for the feature
+
+5. **Update our plan** 
+   - Update our file in /project-management/plans/ $ARGUMENTS

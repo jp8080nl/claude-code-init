@@ -19,5 +19,9 @@ Follow these steps:
   - Check if GitHub automates tests and provide info on failures
   - Ask user to review PR and to provide feedback if needed
   - If changes are requested: return to step 1 in Implement or update Feature and repeat the process
+  - Update the the plan file in /project-management/plans/ $ARGUMENTS and mark everything as implemented
+  - Move the plan file to /project-management/plans/implemented/
   - If PR is accepted ask user to merge feature to development branch
   - Ask user to delete the feature branch
+  - Use ‘gh issue’ close the GitHub issue as done
+
